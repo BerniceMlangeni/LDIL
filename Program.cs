@@ -4,10 +4,10 @@
     public class MilkSong
     {
         //declared method Sing
-        public void Sing(int startBottles)
+        public void Sing(int Bottles)
         {
             //created a for loop to loop through the milk bottles until we reach the last bottle
-            for (int i = startBottles; i > 0; i--)
+            for (int i = Bottles; i > 0; i--)
             {
                 if (i > 1)
                 {
